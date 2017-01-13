@@ -336,10 +336,10 @@ section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
 }
-section.contact h2 i .heart {
+section.contact h2 i.heart {
   color: #dd4b39;
 }
-section.contact h2 i .coffee {
+section.contact h2 i.coffee {
   color: #000000;
 }
 section.contact ul.list-social {
