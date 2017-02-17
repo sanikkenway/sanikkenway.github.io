@@ -336,6 +336,9 @@ section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
 }
+section.contact h2 i.code{
+	color: #900c3f
+}
 section.contact h2 i.heart {
   color: #dd4b39;
 }
