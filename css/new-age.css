@@ -253,36 +253,36 @@ section.download .badges .badge-link img {
     font-size: 70px;
   }
 }
-section.features .section-heading {
+section.about .section-heading {
   margin-bottom: 100px;
 }
-section.features .section-heading h2 {
+section.about .section-heading h2 {
   margin-top: 0;
 }
-section.features .section-heading p {
+section.about .section-heading p {
   margin-bottom: 0;
 }
-section.features .device-container,
-section.features .feature-item {
+section.about .device-container,
+section.about .feature-item {
   max-width: 300px;
   margin: 0 auto;
 }
-section.features .device-container {
+section.about .device-container {
   margin-bottom: 100px;
 }
 @media (min-width: 992px) {
-  section.features .device-container {
+  section.about .device-container {
     margin-bottom: 0;
   }
 }
-section.features .feature-item {
+section.about .feature-item {
   text-align: center;
   margin-bottom: 100px;
 }
-section.features .feature-item h3 {
+section.about .feature-item h3 {
   font-size: 30px;
 }
-section.features .feature-item i {
+section.about .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #2D49D7, #dc2430);
   background: linear-gradient(to left, #2D49D7, #dc2430);
@@ -290,11 +290,55 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {
-  section.features .device-container,
-  section.features .feature-item {
+  section.about .device-container,
+  section.about .feature-item {
     max-width: none;
   }
 }
+
+section.services .section-heading {
+  margin-bottom: 100px;
+}
+section.services .section-heading h2 {
+  margin-top: 0;
+}
+section.services .section-heading p {
+  margin-bottom: 0;
+}
+section.services .device-container,
+section.services .feature-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+section.services .device-container {
+  margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  section.services .device-container {
+    margin-bottom: 0;
+  }
+}
+section.services .feature-item {
+  text-align: center;
+  margin-bottom: 100px;
+}
+section.services .feature-item h3 {
+  font-size: 30px;
+}
+section.services .feature-item i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #9bd7d1, #6cdbdc);
+  background: linear-gradient(to left, #9bd7d1, #6cdbdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  section.services .device-container,
+  section.services .feature-item {
+    max-width: none;
+  }
+}
+
 section.cta {
   position: relative;
   -webkit-background-size: cover;
@@ -399,9 +443,14 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
+  background: #77ccc7;
+  background: -webkit-linear-gradient(#77ccc7, #2d3f6d);
+  background: linear-gradient(#77ccc7, #2d3f6d);
+}
+.bg-gold {
   background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: -webkit-linear-gradient(#fdcc52, #fda400);
+  background: linear-gradient(#fdcc52, #fda400);
 }
 .text-primary {
   color: #fdcc52;
