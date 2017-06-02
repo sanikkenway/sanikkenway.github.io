@@ -14,7 +14,7 @@
 }
  
 .shell-body li:before {
-  content: '$';
+  content: 'sanik@linux:~$';
   position: absolute;
   left: 0;
   top: 0;
@@ -23,7 +23,7 @@
 .shell-body li {
   word-wrap: break-word;
   position: relative;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 105px;
 }
 
 .text-left {
