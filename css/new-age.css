@@ -85,9 +85,9 @@ p {
 }
 .navbar-default .nav > li > a {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  text-transform: uppercase;
+  //text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -339,6 +339,49 @@ section.services .feature-item i {
   }
 }
 
+section.clients .section-heading {
+  margin-bottom: 100px;
+}
+section.clients .section-heading h2 {
+  margin-top: 0;
+}
+section.clients .section-heading p {
+  margin-bottom: 0;
+}
+section.clients .device-container,
+section.clients .feature-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+section.clients .device-container {
+  margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  section.clients .device-container {
+    margin-bottom: 0;
+  }
+}
+section.clients .feature-item {
+  text-align: center;
+  margin-bottom: 100px;
+}
+section.clients .feature-item h3 {
+  font-size: 30px;
+}
+section.clients .feature-item i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #9bd7d1, #6cdbdc);
+  background: linear-gradient(to left, #9bd7d1, #6cdbdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  section.clients .device-container,
+  section.clients .feature-item {
+    max-width: none;
+  }
+}
+
 section.cta {
   position: relative;
   -webkit-background-size: cover;
@@ -410,6 +453,7 @@ footer {
 }
 footer p {
   font-size: 12px;
+  color: #FFFFFF;
   margin: 0;
 }
 footer ul {
@@ -531,6 +575,11 @@ footer ul li a:hover.fa-camera-retro {
   background: #77ccc7;
   background: -webkit-linear-gradient(#77ccc7, #2d3f6d);
   background: linear-gradient(#77ccc7, #2d3f6d);
+}
+.bg-client {
+  background: #FF5733 ;
+  background: -webkit-linear-gradient(#FF5733, #581845);
+  background: linear-gradient(#FF5733, #581845);
 }
 .bg-gold {
   background: #fdcc52;
