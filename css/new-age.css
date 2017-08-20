@@ -9,10 +9,10 @@
   letter-spacing: 1px;
 }
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
 }
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -22,7 +22,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
 }
 a {
   -webkit-transition: all 0.35s;
@@ -70,7 +70,7 @@ p {
 }
 .navbar-default .navbar-header .navbar-brand {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: bold;
   letter-spacing: 1px;
   color: #fdcc52;
 }
@@ -84,8 +84,9 @@ p {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   //text-transform: uppercase;
+  font-weight: bold;
   letter-spacing: 2px;
   font-size: 14px;
 }
@@ -127,7 +128,7 @@ p {
     color: white;
   }
   .navbar-default.affix {
-    background-color: white;
+    background-color: rgba(169,169,169,0.7);
     border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
@@ -429,6 +430,9 @@ section.contact h2 i.code{
 section.contact h2 i.heart {
   color: #dd4b39;
 }
+section.contact h2 i.fire {
+  color: #DC143C;
+}
 section.contact h2 i.coffee {
   color: #000000;
 }
@@ -607,8 +611,8 @@ footer ul li a:hover.fa-camera-retro {
   border-color: #fdcc52;
 }
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  text-transform: uppercase;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  //text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
 }
