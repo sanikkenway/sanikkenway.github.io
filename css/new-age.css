@@ -528,6 +528,16 @@ footer ul li a:hover.fa-instagram {
   color: #cb1d62;
   text-decoration: none;
 }
+footer ul li a.fa-linkedin {
+  font-size: 12px;
+  color: #0077B5;
+}
+footer ul li a:hover.fa-linkedin,
+footer ul li a:focus.fa-linkedin,
+footer ul li a:hover.fa-linkedin {
+  color: #0077B5;
+  text-decoration: none;
+}
 footer ul li a.fa-medium {
   font-size: 12px;
   color: #0be370;
