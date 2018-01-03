@@ -282,7 +282,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2017 S.A.Nik. All Rights Reserved.</p>
+            <p>&copy; <span id="current-year"></span> S.A.Nik. All Rights Reserved.</p>
             <ul class="list-inline">
                 <li><a href="https://500px.com/sanik" class="fa fa-500px" target="_blank"></a></li>
 				<li><a href="https://www.facebook.com/sanik90" class="fa fa-facebook" target="_blank"></a></li>
@@ -321,6 +321,9 @@
             $('#btn-click-show-email').addClass('hide');
 			$('#contact-email').removeClass();
         });
+
+        // current year for footer
+        $('#current-year').html((new Date()).getFullYear());
 	});
 	</script>
 
